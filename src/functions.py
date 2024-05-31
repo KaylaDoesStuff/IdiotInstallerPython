@@ -16,6 +16,8 @@ def check_distro():
         distro = "Void"
     elif os.path.exists(dnf_path):
         distro = "RHEL-Based"
+    else:
+        distro = "Unknown"
     return distro
 
 def type_print():
