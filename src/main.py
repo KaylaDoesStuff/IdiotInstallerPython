@@ -1,6 +1,9 @@
-import os
-import variables
+from variables import *
+from functions import *
 
 def main():
-    print("Hello World!")
-    pass
+    distro = check_distro()
+    print("Detected derivative of "+distro)
+    type_print()
+
+main()

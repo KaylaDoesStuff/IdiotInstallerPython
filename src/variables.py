@@ -1,0 +1,19 @@
+pacman_path = "/usr/bin/pacman"
+apt_path = "/usr/bin/apt"
+dnf_path = "/usr/bin/dnf"
+pkg_path = "/usr/bin/pkg"
+apk_path = "/usr/bin/apk"
+emerge_path = "/usr/bin/emerge"
+xbps_path = "/usr/bin/xbps-install"
+
+TYPES = ["File Managers","Browsers","Terminals", "Media", "Gaming", "Connection Utilities", "Desktop Environments", "Extras", "Games", "Emulators"]
+FILES = ["Caja", "Thunar", "Dolphin", "Nautilus"]
+BROWSER = ["Chrome", "Chromium", "Opera", "Firefox", "LibreWolf", "Edge"]
+TERMINAL = ["Alacritty", "Kitty", "XTerm", "Konsole", "GNOME"]
+EXTRA = ["Paru", "Yay", "Pamac", "Connman", "Blueman", "NetworkManager", "Hyfetch", "Htop", "Cmatrix", "Papirus Icons"]
+GAMING = ["Steam", "Discord", "Prism Launcher", "ATLauncher", "Heroic Launcher", "Lutris", "ProtonUp-QT"]
+MEDIA = ["Spotify", "VLC", "ThunderBird", "OBS Studio", "KdenLive", "DaVinci Resolve", "Rhythm Box"]
+DESKTOP = ["KDE Plasma", "GNOME", "Xfce4", "LXQT", "MATE", "i3", "Bspwm", "Sway"]
+CONNECTION = ["Moonlight", "Sunshine", "Haguichi(Hamachi)", "ZeroTier", "WireGuard", "OpenSSH", "Anydesk", "TeamViewer"]
+GAMES = ["Xonotic", "Sauerbraten", "MineTEST", "Open Doom", "Open Arena", "OsuLAZER"]
+EMULATORS = ["RetroArch", "OpenEmu", "PCSX2", "Citris", "Duck Station", "Dolphin EMU", "PPSSPP", "Ryujinx"]
