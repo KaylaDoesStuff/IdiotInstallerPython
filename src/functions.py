@@ -21,4 +21,5 @@ def check_distro():
     return distro
 
 def type_print():
-    
+    for i in TYPE:
+        print(i, ">", TYPE[i])
